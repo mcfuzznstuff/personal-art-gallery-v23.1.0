@@ -18,7 +18,7 @@ var e=document.querySelector('.js25');e.setAttribute('src',(dpi>1)?((dpi>2)?'ima
 if(!window.HTMLPictureElement){$(window).resize(r);r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 initMenu($('#m5')[0]);
-initMenu($('#m2')[0]);
 initMenu($('#m6')[0]);
+initMenu($('#m1')[0]);
 ldsrc('.js26');ldsrcset('.js37 source');ldsrc('.js27');ldsrcset('.js38 source');ldsrc('.js28');ldsrcset('.js39 source');var cs=new ConsentBanner('privacy-policy.html', undefined, 0);cs.start(1);
 });

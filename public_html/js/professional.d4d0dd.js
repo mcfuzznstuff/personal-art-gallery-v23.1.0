@@ -33,7 +33,7 @@ var a='data-src';var e=document.querySelector('.js18 .slide2');if(e.hasAttribute
 var e=document.querySelector('.js16');e.setAttribute('src',(dpi>1)?((dpi>2)?'images/work-960-1-960.jpg':'images/work-960-1-640.jpg'):'images/work-960-1-320.jpg');}}};
 if(!window.HTMLPictureElement){$(window).resize(r);r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
+initMenu($('#m1')[0]);
 initMenu($('#m3')[0]);
-initMenu($('#m2')[0]);
 $('.js17 .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,overflow: 'hidden',speed: 300,dots: true,arrows: true,infinite: true,autoplay: true,pauseOnHover: true,autoplaySpeed: 5000});$('.js18 .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,overflow: 'hidden',speed: 300,dots: false,arrows: true,infinite: true,autoplay: true,pauseOnHover: true,autoplaySpeed: 10000});var cs=new ConsentBanner('privacy-policy.html', undefined, 0);cs.start(1);
 });

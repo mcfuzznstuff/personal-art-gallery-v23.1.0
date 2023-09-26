@@ -6,6 +6,6 @@ ldsrcset=function(t){var e,r=document.querySelectorAll(t);for(e=0;e<r.length;e++
 
 $(function(){
 $('form').h5Validate();(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-blogIndexLoadImages();initMenu($('#m2')[0]);
+blogIndexLoadImages();initMenu($('#m1')[0]);
 var cs=new ConsentBanner('privacy-policy.html', undefined, 0);cs.start(1);
 });

@@ -6,6 +6,6 @@ var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw
 
 $(function(){
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-initMenu($('#m2')[0]);
+initMenu($('#m1')[0]);
 var cs=new ConsentBanner('privacy-policy.html', undefined, 0);cs.start(1);
 });
