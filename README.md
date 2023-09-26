@@ -27,11 +27,13 @@ The result will be a place where I can easily upload my own art for on demand pr
 ## Other Phase 0 Documentation
 
  Research
-The earliest Discovery/Research was done in OneNote. More research can be found in [this Trello Card](https://trello.com/c/2WlUxIqI), which contains links to many resources to support this effort.
+The earliest Discovery/Research was done in OneNote. More research and progress can be followed via the following Trello Board.
 
 <div style="width: 100%;">
-  <img src="trello_card.svg" style="width: 100%;" alt="Click to see the source Trello Card.">
+  <img src="https://trello.com/invite/b/fGHLlvaW/ATTI04e0591e89044383950839fd716a47d28709117E/art-gallery-project-management-board" style="width: 100%;" alt="Click to see the source Trello Card.">
 </div>
+
+
 
 ### 🧑‍💻 Team members
 
