@@ -1,0 +1,39 @@
+(function(d){var h=[];d.loadImages=function(a,e){"string"==typeof a&&(a=[a]);for(var f=a.length,g=0,b=0;b<f;b++){var c=document.createElement("img");c.onload=function(){g++;g==f&&d.isFunction(e)&&e()};c.src=a[b];h.push(c)}}})(window.jQuery);
+var wl;
+
+var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=768){cw++;}if(w>=960){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
+function em1(){var c="tufqibojfAuiftuqfibojfnjsboeb/dpn";var addr="mailto:";for(var i=0;i<c.length;i++)addr+=String.fromCharCode(c.charCodeAt(i)-1);window.location.href=addr;}
+!function(){if("Promise"in window){var e,t,r=document,n=function(){return r.createElement("link")},o=new Set,a=n(),i=a.relList&&a.relList.supports&&a.relList.supports("prefetch"),s=location.href.replace(/#[^#]+$/,"");o.add(s);var c=function(e){var t=location,r="http:",n="https:";if(e&&e.href&&e.origin==t.origin&&[r,n].includes(e.protocol)&&(e.protocol!=r||t.protocol!=n)){var o=e.pathname;if(!(e.hash&&o+e.search==t.pathname+t.search||".html"!=o.substr(-5)&&".html"!=o.substr(-5)&&"/"!=o.substr(-1)))return!0}},u=function(e){var t=e.replace(/#[^#]+$/,"");if(!o.has(t)){if(i){var a=n();a.rel="prefetch",a.href=t,r.head.appendChild(a)}else{var s=new XMLHttpRequest;s.open("GET",t,s.withCredentials=!0),s.send()}o.add(t)}},f=function(e){return e.target.closest("a")},p=function(t){var r=t.relatedTarget;r&&f(t)==r.closest("a")||e&&(clearTimeout(e),e=void 0)},l={capture:!0,passive:!0};r.addEventListener("touchstart",function(e){t=performance.now();var r=f(e);c(r)&&u(r.href)},l),r.addEventListener("mouseover",function(r){if(!(performance.now()-t<1200)){var n=f(r);c(n)&&(n.addEventListener("mouseout",p,{passive:!0}),e=setTimeout(function(){u(n.href),e=void 0},80))}},l)}}();
+
+$(function(){
+r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){var a='data-src';var e=document.querySelector('.js17 .slide0');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/old_teen_page-590.png':'images/old_teen_page-295.png');
+var a='data-src';var e=document.querySelector('.js17 .slide1');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/updated_teen_page-587.png':'images/updated_teen_page-294.png');
+var a='data-src';var e=document.querySelector('.js17 .slide2');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/gen-tech-inc-old-794.png':'images/gen-tech-inc-old-397.png');
+var a='data-src';var e=document.querySelector('.js17 .slide3');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/gen-tech-inc-new-460.png':'images/gen-tech-inc-new-230.png');
+var a='data-src';var e=document.querySelector('.js17 .slide4');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?((dpi>2)?'images/balance-calculator-chart-163032-1881.jpg':'images/balance-calculator-chart-163032-1254.jpg'):'images/balance-calculator-chart-163032-627.jpg');
+var a='data-src';var e=document.querySelector('.js18 .slide0');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-844-1.png');
+var a='data-src';var e=document.querySelector('.js18 .slide1');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-844-2.png');
+var a='data-src';var e=document.querySelector('.js18 .slide2');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-844-3.png');
+var e=document.querySelector('.js16');e.setAttribute('src','images/work-960-1-960-1.jpg');}else if($(window).width()>=768){var a='data-src';var e=document.querySelector('.js17 .slide0');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/old_teen_page-584.png':'images/old_teen_page-292.png');
+var a='data-src';var e=document.querySelector('.js17 .slide1');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/updated_teen_page-582.png':'images/updated_teen_page-291.png');
+var a='data-src';var e=document.querySelector('.js17 .slide2');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/gen-tech-inc-old-787.png':'images/gen-tech-inc-old-393.png');
+var a='data-src';var e=document.querySelector('.js17 .slide3');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/gen-tech-inc-new-455.png':'images/gen-tech-inc-new-228.png');
+var a='data-src';var e=document.querySelector('.js17 .slide4');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?((dpi>2)?'images/balance-calculator-chart-163032-1863.jpg':'images/balance-calculator-chart-163032-1242.jpg'):'images/balance-calculator-chart-163032-621.jpg');
+var a='data-src';var e=document.querySelector('.js18 .slide0');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-712-1.png');
+var a='data-src';var e=document.querySelector('.js18 .slide1');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-712-2.png');
+var a='data-src';var e=document.querySelector('.js18 .slide2');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-712-3.png');
+var e=document.querySelector('.js16');e.setAttribute('src','images/work-960-1-768.jpg');}else{var a='data-src';var e=document.querySelector('.js17 .slide0');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?((dpi>2)?'images/old_teen_page-802.png':'images/old_teen_page-535.png'):'images/old_teen_page-267.png');
+var a='data-src';var e=document.querySelector('.js17 .slide1');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?((dpi>2)?'images/updated_teen_page-799.png':'images/updated_teen_page-533.png'):'images/updated_teen_page-266.png');
+var a='data-src';var e=document.querySelector('.js17 .slide2');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?((dpi>2)?'images/gen-tech-inc-old-843-1.png':'images/gen-tech-inc-old-562-1.png'):'images/gen-tech-inc-old-281-1.png');
+var a='data-src';var e=document.querySelector('.js17 .slide3');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?((dpi>2)?'images/gen-tech-inc-new-625.png':'images/gen-tech-inc-new-417.png'):'images/gen-tech-inc-new-208.png');
+var a='data-src';var e=document.querySelector('.js17 .slide4');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?((dpi>2)?'images/balance-calculator-chart-163032-843.jpg':'images/balance-calculator-chart-163032-562.jpg'):'images/balance-calculator-chart-163032-281.jpg');
+var a='data-src';var e=document.querySelector('.js18 .slide0');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-282-1.png');
+var a='data-src';var e=document.querySelector('.js18 .slide1');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-282-2.png');
+var a='data-src';var e=document.querySelector('.js18 .slide2');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,'images/white-background-282-3.png');
+var e=document.querySelector('.js16');e.setAttribute('src',(dpi>1)?((dpi>2)?'images/work-960-1-960.jpg':'images/work-960-1-640.jpg'):'images/work-960-1-320.jpg');}}};
+if(!window.HTMLPictureElement){$(window).resize(r);r();}
+(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
+initMenu($('#m3')[0]);
+initMenu($('#m2')[0]);
+$('.js17 .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,overflow: 'hidden',speed: 300,dots: true,arrows: true,infinite: true,autoplay: true,pauseOnHover: true,autoplaySpeed: 5000});$('.js18 .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,overflow: 'hidden',speed: 300,dots: false,arrows: true,infinite: true,autoplay: true,pauseOnHover: true,autoplaySpeed: 10000});var cs=new ConsentBanner('privacy-policy.html', undefined, 0);cs.start(1);
+});

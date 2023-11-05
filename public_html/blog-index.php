@@ -91,15 +91,15 @@
 <meta name="author" content="Stephanie Miranda">
 <link rel="alternate" hreflang="en" href="https://www.thestephaniemiranda.com/blog-index.php">
 <script>!function(){var A=new Image;A.onload=A.onerror=function(){1==A.height&&(document.documentElement.className+=" webp")},A.src="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAD8D+JaQAA3AA/ua1AAA"}();</script>
-<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.d9e79f.css" media="print">
+<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.1ef0f3.css" media="print">
 <!--[if lte IE 7]>
-<link rel="stylesheet" href="css/site.d9e79f-lteIE7.css" type="text/css">
+<link rel="stylesheet" href="css/site.1ef0f3-lteIE7.css" type="text/css">
 <![endif]-->
 <!--[if lte IE 8]>
-<link rel="stylesheet" href="css/site.d9e79f-lteIE8.css" type="text/css">
+<link rel="stylesheet" href="css/site.1ef0f3-lteIE8.css" type="text/css">
 <![endif]-->
 <!--[if gte IE 9]>
-<link rel="stylesheet" href="css/site.d9e79f-gteIE9.css" type="text/css">
+<link rel="stylesheet" href="css/site.1ef0f3-gteIE9.css" type="text/css">
 <![endif]-->
 </head>
 <body id="b">
@@ -423,7 +423,7 @@
 </div>
 </div>
 <div class="menu-device"></div>
-<script>dpth="/";!function(){var s=["js/jquery.94abca.js","js/h5validate.js","js/jqueryui.94abca.js","js/menu.94abca.js","js/menu-dropdown-animations.94abca.js","js/menu-dropdown-1.d9e79f.js","js/menu-dropdown-2.d9e79f.js","js/consent.94abca.js","js/blog-index.d9e79f.js"],n={},j=0,e=function(e){var o=new XMLHttpRequest;o.open("GET",s[e],!0),o.onload=function(){if(n[e]=o.responseText,9==++j)for(var t in s){var i=document.createElement("script");i.textContent=n[t],document.body.appendChild(i)}},o.send()};for(var o in s)e(o)}();
+<script>dpth="/";!function(){var s=["js/jquery.94abca.js","js/h5validate.js","js/jqueryui.94abca.js","js/menu.94abca.js","js/menu-dropdown-animations.94abca.js","js/menu-dropdown-1.1ef0f3.js","js/menu-dropdown-2.1ef0f3.js","js/consent.94abca.js","js/blog-index.1ef0f3.js"],n={},j=0,e=function(e){var o=new XMLHttpRequest;o.open("GET",s[e],!0),o.onload=function(){if(n[e]=o.responseText,9==++j)for(var t in s){var i=document.createElement("script");i.textContent=n[t],document.body.appendChild(i)}},o.send()};for(var o in s)e(o)}();
 </script>
 <script type="text/javascript">
 var ver=RegExp(/Mozilla\/5\.0 \(Linux; .; Android ([\d.]+)/).exec(navigator.userAgent);if(ver&&parseFloat(ver[1])<5){document.getElementsByTagName('body')[0].className+=' whitespacefix';}
