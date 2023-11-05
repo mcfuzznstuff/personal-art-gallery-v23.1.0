@@ -27,10 +27,10 @@ The result will be a place where I can easily upload my own art for on demand pr
 ## Other Phase 0 Documentation
 
 #### Research
-The earliest Discovery/Research was done in OneNote. More research and progress can be followed via the following Trello Board.
+The earliest Discovery/Research was done in OneNote. More research and progress can be followed via a Trello Board, that I'm happy to review live upon scheduling time via my calendly.
 
 <div style="width: 100%;">
-  <img src="trello_card.svg" style="width: 100%;" alt="Click to see the source Trello Board.">
+  <img src="https://calendly.com/stephanie-4lq/30min" style="width: 100%;" alt="Click to schedule 30-minutes to review this project's Trello Boards with Steph." title="Schedule Live, 30-minute Project Board Review.>
 </div>
 
 
