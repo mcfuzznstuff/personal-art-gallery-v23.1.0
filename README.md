@@ -40,6 +40,8 @@ Feel free to [schedule 30 minutes](https://calendly.com/stephanie-4lq/30min) for
 
 ### 🛠️ Project deliverables
 
+* **_PLEASE SEE THE ISSUES WITHIN THIS REPO FOR UPDATES_**
+
  Task	| Assigned to	| Due date	| Status 
  :------------- | -------------:| -----:| ---------:
  Phase 0 - Get basics set up and begin research, i.e. the first diamond as outlined in the Discovery process of [this Product Management framework](https://www.productboard.com/blog/double-diamond-framework-product-management/) by Productboard. | @mcfuzznstuff | 9/30/2023 | **DONE** 
