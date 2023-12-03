@@ -57,4 +57,4 @@ Feel free to [schedule 30 minutes](https://calendly.com/stephanie-4lq/30min) for
  - 9.26.2023: v23.1.0 of GitHub documentation, linking, etc.
  - 11.5.2023: v23.1.0 - Updated status of Phases to better account for actual progress.
  - 11.14.2023: v23.1.0 - Updating status of phases NOW, NEXT, LATER, and adding video demo.
- - 12/3/2023: V23.1.0 - Updating status of phases NOW, NEXT, and LATER. Also updating the Goals, Anti-Goals sections.
+ - 12.3.2023: V23.1.0 - Updating status of phases NOW, NEXT, and LATER. Also updating the Goals, and Anti-Goals sections.
