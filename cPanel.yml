@@ -1,0 +1,36 @@
+# Altered from this location on GitHub: https://gist.github.com/mahdyar/2b99f57e30ce28a459dcc728a1893e68
+# Create Secrects: https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-encrypted-secrets-for-a-repository
+
+name: Deploy to cPanel
+on:
+  push:
+    branches:
+      - stage
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.1.0
+        with:
+          fetch-depth: 2
+      # Deploy to cPanel
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.FTP_SERVER }}
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+      # Purge CF's cache (optional)
+      - name: Purge cache
+        uses: jakejarvis/cloudflare-purge-action@master
+        env:
+          CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+
+# For @mcfuzznstuff art-gallery project deploy file v1.0
+
+
+
+# ChangeLog:
+# - 9.26.2023: creation of artifact. TODO: research how to complete deploy from GitHub.
