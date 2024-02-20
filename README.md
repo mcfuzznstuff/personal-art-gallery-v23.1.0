@@ -49,7 +49,7 @@ Feel free to [schedule 30 minutes](https://calendly.com/stephanie-4lq/30min) for
  Phase 2 - Database setup and connections.	|Stephanie Miranda | Thu, Oct 26	| Round 1, **DONE, 11/5/2023**, Round 2  aka v23.1.1 **NEXT** 
  Phase 3 - Alpha test.	| Stephanie Miranda | Fri, Nov 10	| **DONE, 11/5/2023** 
  Phase 4 - Launch and iterate. [Video Demo/Teaser of progress](https://www.loom.com/share/6b290ee848cf41978386b3867268dcfe?sid=0a1bc124-ede0-42b7-9419-3367dd5e11cc)	| Stephanie Miranda | 	~~Mon, Nov 13~~	 ~~THANKSGIVING 2023~~ **11/28/2023** | **DONE** 
- Phase 5 - Retrospective - see next section and Wiki for more details.	| @mcfuzznstuff | ~_TBD_~ Tues, Dec 14, 2023 | **DONE** 
+ Phase 5 - Retrospective - see next section and Wiki for more details.	| @mcfuzznstuff | ~_TBD_~ Thurs, Dec 14, 2023 | **DONE** 
 
 
 ### 🔭 Retrospective
@@ -67,8 +67,7 @@ This is a part of the Agile process, and since I have no other team members I an
 - Just because I'm wearing ALL the hats of a project, doesn't mean I can/should skip steps that are not "entertaining," or not a part of my current corporate persona role.
 - Clearly defining the personas and their journeys will help in iterations. (a part of the NEXT version/iteration of this project.)
 #### 🤓 Plan of action
-- Use ChatGPT to help create user stories based on personas and journeys defined in this project's [Miro](https://miro.com/app/board/uXjVMouX5qk=/).
-
+- Use ChatGPT to help create user stories based on personas and journeys defined in this project's [Miro](https://miro.com/app/board/uXjVMouX5qk=/). Check out the progress of this in the [User Stories Wiki](https://github.com/mcfuzznstuff/personal-art-gallery-v23.1.0/wiki/User-Stories) for this Repo. 
 
 
  ##### Changelog
@@ -78,3 +77,4 @@ This is a part of the Agile process, and since I have no other team members I an
  - 11.14.2023: v23.1.0 - Updating status of phases NOW, NEXT, LATER, and adding video demo.
  - 12.3.2023: V23.1.0 - Updating status of phases NOW, NEXT, and LATER. Also updating the Goals, and Anti-Goals sections.
  - 12.14.2023: v23.1.0 - Added Retrospective to the Readme file to set further expectations.
+ - 12.19.2023: v.23.1.1 - Adding link to User Stories Wiki per the Retrospective Section.
