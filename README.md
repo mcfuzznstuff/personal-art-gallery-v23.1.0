@@ -1,5 +1,5 @@
 # personal-art-gallery-v23.1.0
-This project will have several goals and desired outcomes which will be outlined in the wiki and other documentation. The main page that will house this on my personal/professional site is [here](http://thestephaniemiranda.com/art-gallery.html).
+This project will have several goals and desired outcomes which will be outlined in the wiki and other documentation. The main page that will house this on my personal/professional site is [here](https://www.thestephaniemiranda.com/steph-s-digital-art-gallery-purchase-direct.html).
 
 ## Plan
 
@@ -67,7 +67,7 @@ This is a part of the Agile process, and since I have no other team members I an
 - Just because I'm wearing ALL the hats of a project, doesn't mean I can/should skip steps that are not "entertaining," or not a part of my current corporate persona role.
 - Clearly defining the personas and their journeys will help in iterations. (a part of the NEXT version/iteration of this project.)
 #### 🤓 Plan of action
-- Use ChatGPT to help create user stories based on personas and journeys defined in this project's [Miro](https://miro.com/app/board/uXjVMouX5qk=/). Check out the progress of this in the [User Stories Wiki](https://github.com/mcfuzznstuff/personal-art-gallery-v23.1.0/wiki/User-Stories) for this Repo. 
+- Use ChatGPT to help create user stories based on personas and journeys. Screenshots to be added to the Wiki in time. Check out the progress of this in the [User Stories Wiki](https://github.com/mcfuzznstuff/personal-art-gallery-v23.1.0/wiki/User-Stories) for this Repo. 
 
 
  ##### Changelog
@@ -78,3 +78,4 @@ This is a part of the Agile process, and since I have no other team members I an
  - 12.3.2023: V23.1.0 - Updating status of phases NOW, NEXT, and LATER. Also updating the Goals, and Anti-Goals sections.
  - 12.14.2023: v23.1.0 - Added Retrospective to the Readme file to set further expectations.
  - 12.19.2023: v.23.1.1 - Adding link to User Stories Wiki per the Retrospective Section.
+ - 3.19.2024 v23.1.1 - Updated links.
